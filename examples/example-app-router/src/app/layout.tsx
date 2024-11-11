@@ -1,6 +1,8 @@
 import {ReactNode} from 'react';
 import './styles.css';
 
+export const dynamic = "error";
+
 type Props = {
   children: ReactNode;
 };
