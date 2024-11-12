@@ -15,7 +15,7 @@ export default function GlobalNotFound() {
    * https://localhost:3000/de/unknown-route) are both showing translations and
    * routing for `en`.
    */
-  setRequestLocale(routing.defaultLocale)
+  // setRequestLocale(routing.defaultLocale)
   return (
     <BaseLayout locale={routing.defaultLocale}>
       <NotFoundPage />
